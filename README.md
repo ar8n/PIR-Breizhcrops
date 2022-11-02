@@ -6,7 +6,7 @@ Repository pour le Projet d'Initiation à la Recherche (no. 14, ING21)
 
 ![](https://github.com/tum-lmf/breizhcrops/workflows/build-package/badge.svg)
 
-Check our [Breizhcrops Tutorial Colab Notebook](https://colab.research.google.com/drive/1i0M_X5-ytFhF0NO-FjhKiqnraclSEIb0?usp=sharing) for quick hands-on examples.
+Regardez le [Breizhcrops Tutorial Colab Notebook](https://colab.research.google.com/drive/1i0M_X5-ytFhF0NO-FjhKiqnraclSEIb0?usp=sharing) duquel nous avons commencé à travailler.
 
 ### Installation
 #### Linux and macOS
@@ -18,7 +18,7 @@ pip install breizhcrops
 
 #### Windows
 
-If you use Windows, execute these lines.
+Si vous utlisez Windows, vous devez executer ces quelques lignes.
 ```
 git clone https://github.com/dl4sits/BreizhCrops.git
 pip install torch==1.6.0 -f https://download.pytorch.org/whl/torch_stable.html
