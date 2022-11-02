@@ -4,6 +4,9 @@ Repository pour le Projet d'Initiation à la Recherche (no. 14, ING21)
 # BreizhCrops:
 #### A Time Series Dataset for Crop Type Mapping
 
+
+Voilà l'[article](https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/BREIZHCROPS%20-%20A%20TIME%20SERIES%20DATASET%20FOR%20CROP%20TYPE%20MAPPING.pdf) consultable en ligne sur lequel nous avons appuyé toutes nos recherches. Cet article qui parle d'un ensemble de données satellites qui a été utilisé pour la cartographie des types de culture en Bretagne a été réalisé par Marc Rußwurm, Charlotte Pelletier, Maximilian Zollner, Sebastien Lefévre, Marco Korner
+
 ![](https://github.com/tum-lmf/breizhcrops/workflows/build-package/badge.svg)
 
 Regardez le [Breizhcrops Tutorial Colab Notebook](https://colab.research.google.com/drive/1i0M_X5-ytFhF0NO-FjhKiqnraclSEIb0?usp=sharing) duquel nous avons commencé à travailler.
