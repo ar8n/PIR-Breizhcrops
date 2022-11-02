@@ -5,7 +5,8 @@ Repository pour le Projet d'Initiation à la Recherche (no. 14, ING21)
 #### A Time Series Dataset for Crop Type Mapping
 
 
-Voilà l'[article](https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/BREIZHCROPS%20-%20A%20TIME%20SERIES%20DATASET%20FOR%20CROP%20TYPE%20MAPPING.pdf) consultable en ligne sur lequel nous avons appuyé toutes nos recherches. Cet article scientifique réalisé par Marc Rußwurm, Charlotte Pelletier, Maximilian Zollner, Sebastien Lefévre et Marco Korner parle d'un ensemble de données satellitaires qui a été utilisé pour la cartographie des types de culture en Bretagne.
+Voilà l'[article](https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/BREIZHCROPS%20-%20A%20TIME%20SERIES%20DATASET%20FOR%20CROP%20TYPE%20MAPPING.pdf) consultable en ligne sur lequel nous avons appuyé toutes nos recherches. Cet article scientifique réalisé par Marc Rußwurm, Charlotte Pelletier, Maximilian Zollner, Sebastien Lefévre et Marco Korner présente un nouvel ensemble de données de référence pour la classification supervisée des grandes cultures à partir de séries chronologiques satellitaires en Bretagne. Ils comparent sept réseaux de neurones profonds récents qui s'appuie chacun sur l'algorithme Random Forest. 
+
 
 ![](https://github.com/tum-lmf/breizhcrops/workflows/build-package/badge.svg)
 
