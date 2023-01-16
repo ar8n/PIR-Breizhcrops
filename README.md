@@ -7,58 +7,10 @@ Repository pour le Projet d'Initiation à la Recherche (no. 14, ING21)
 
 Voilà l'[article BREIZHCROPS: A TIME SERIES DATASET FOR CROP TYPE MAPPING](https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/BREIZHCROPS%20-%20A%20TIME%20SERIES%20DATASET%20FOR%20CROP%20TYPE%20MAPPING.pdf) consultable en ligne sur lequel nous avons appuyé toutes nos recherches. Cet article scientifique réalisé par Marc Rußwurm, Charlotte Pelletier, Maximilian Zollner, Sebastien Lefévre et Marco Korner présente un nouvel ensemble de données de référence pour la classification supervisée des grandes cultures à partir de séries chronologiques satellitaires en Bretagne. Ils comparent sept réseaux de neurones profonds récents qui s'appuie chacun sur l'algorithme Random Forest. 
 
+Ils ont rédigé un tutoriel explicatif sur [Colab Notebook](https://colab.research.google.com/drive/1i0M_X5-ytFhF0NO-FjhKiqnraclSEIb0?usp=sharing) à partir duquel nous avons commencé à travailler.
 
-![](https://github.com/tum-lmf/breizhcrops/workflows/build-package/badge.svg)
+Leur objectif est de proposer un jeu de donnée pertinent pour entraîner des algorithmes pour la classification : il met en évidences tous les problèmes que le classification peut rencontrer.
 
-Regardez le [Breizhcrops Tutorial Colab Notebook](https://colab.research.google.com/drive/1i0M_X5-ytFhF0NO-FjhKiqnraclSEIb0?usp=sharing) duquel nous avons commencé à travailler.
-
-### Installation
-#### Linux and macOS
-
-Install Breizhcrops as python package from [PyPI](https://pypi.org/project/breizhcrops/)!
-```
-pip install breizhcrops
-```
-
-#### Windows
-
-Si vous utlisez Windows, vous devez executer ces quelques lignes.
-```
-git clone https://github.com/dl4sits/BreizhCrops.git
-pip install torch==1.6.0 -f https://download.pytorch.org/whl/torch_stable.html
-conda install gdal fiona geopandas
-pip install .
-```
-
-### Getting Started
-
-This minimal working example
-```python
-# import package
-import breizhcrops as bzh
-
-# initialize and download FRH04 data
-dataset = bzh.BreizhCrops("frh04")
-
-# get data sample
-x, y, field_id = dataset[0]
-
-# load pretrained model
-model = bzh.models.pretrained("Transformer")
-
-# create a batch of batchsize 1
-x = x.unsqueeze(0)
-
-# perform inference
-y_pred = model(x)
-```
-downloads the FRH04 dataset partition (used for evaluation), loads a pretrained model and performs a prediction on the first sample.
-
-
-![mimimum working example](doc/breizhcrops_zsh_short.gif)
-
-
-Furthermore, for a detailed data analysis you can check the [Hands-on Tutorial on Time Series](https://colab.research.google.com/drive/1i0M_X5-ytFhF0NO-FjhKiqnraclSEIb0?usp=sharing). This is a Jupyter Notebook for timeseries data exploration with BreizhCrops benchmark.
 
 ### Train a model
 
@@ -69,7 +21,6 @@ python train.py TransformerEncoder --learning-rate 0.001 --weight-decay 5e-08 --
 
 This script uses the default model parameters from `breizhcrops.models.TransformerModel`.
 When training multiple epochs, the `--preload-ram` flag speeds up training significantly
-
 
 
 ### Acknowledgements
