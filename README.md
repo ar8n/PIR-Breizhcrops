@@ -15,7 +15,7 @@ Leur objectif est de proposer un jeu de donnée pertinent pour entraîner des al
 
 This work has been published in the proceedings of [ISPRS Archives 2020](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2020/1545/2020/isprs-archives-XLIII-B2-2020-1545-2020.pdf). [Preprint available on ArXiv](https://arxiv.org/abs/1905.11893)
 
-Ils explique leur projet lors du congres en ligne ISPRS, si vous voulez en savoir plus cliquez [ici](http://isprs.stream-up.tv/media-221-breizhcrops-a-time-series-dataset-for-crop-type-mapping)
+Ils expliquent leur projet lors du congres en ligne ISPRS (si vous voulez en savoir plus cliquez [ici](http://isprs.stream-up.tv/media-221-breizhcrops-a-time-series-dataset-for-crop-type-mapping)).
 
 
 ### Train a model
