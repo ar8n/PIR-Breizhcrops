@@ -11,6 +11,20 @@ Ils ont rédigé un tutoriel explicatif sur [Colab Notebook](https://colab.resea
 
 Leur objectif est de proposer un jeu de donnée pertinent pour entraîner des algorithmes pour la classification : il met en évidences tous les problèmes que le classification peut rencontrer.
 
+##### Reference
+
+This work will be published in the proceedings of [ISPRS Archives 2020](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2020/1545/2020/isprs-archives-XLIII-B2-2020-1545-2020.pdf). [Preprint available on ArXiv](https://arxiv.org/abs/1905.11893)
+```
+@article{breizhcrops2020,
+  title={BreizhCrops: A Time Series Dataset for Crop Type Mapping},
+  author={Ru{\ss}wurm, Marc and Pelletier, Charlotte and Zollner, Maximilian and Lef{\`e}vre, S{\'e}bastien and K{\"o}rner, Marco},
+  journal={International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences ISPRS (2020)},
+  year={2020}
+}
+```
+
+ISPRS virtual congress video can be found [here](http://isprs.stream-up.tv/media-221-breizhcrops-a-time-series-dataset-for-crop-type-mapping)
+
 
 ### Train a model
 
@@ -38,25 +52,11 @@ The model implementations from this repository are based on the following papers
 The raw label data originates from  
 * [Registre parcellaire graphique (RPG)](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/) of the French National Geographic Institute (IGN)
 
-### Reference
 
-This work will be published in the proceedings of [ISPRS Archives 2020](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2020/1545/2020/isprs-archives-XLIII-B2-2020-1545-2020.pdf). [Preprint available on ArXiv](https://arxiv.org/abs/1905.11893)
-```
-@article{breizhcrops2020,
-  title={BreizhCrops: A Time Series Dataset for Crop Type Mapping},
-  author={Ru{\ss}wurm, Marc and Pelletier, Charlotte and Zollner, Maximilian and Lef{\`e}vre, S{\'e}bastien and K{\"o}rner, Marco},
-  journal={International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences ISPRS (2020)},
-  year={2020}
-}
-```
-
-ISPRS virtual congress video can be found [here](http://isprs.stream-up.tv/media-221-breizhcrops-a-time-series-dataset-for-crop-type-mapping)
 
 ### ICML workshop 2019
 
 <a href=https://arxiv.org/abs/1905.11893><img height=300px src=doc/paper.png /></a>
 <a href="doc/poster.pdf"><img height=300px src=doc/poster.png /></a>
 
-A previous version (see [workshop website](http://roseyu.com/time-series-workshop/submissions/2019/timeseries-ICML19_paper_34.pdf) or [arxiv version 1](https://arxiv.org/abs/1905.11893v1)) was presented at the
- presented at the [ICML 2019 Time Series workshop, Long Beach, USA](http://roseyu.com/time-series-workshop/)
-ICML workshop contributions do not appear in the ICML proceedings.
+
