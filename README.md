@@ -13,17 +13,9 @@ Leur objectif est de proposer un jeu de donnée pertinent pour entraîner des al
 
 ##### Reference
 
-This work will be published in the proceedings of [ISPRS Archives 2020](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2020/1545/2020/isprs-archives-XLIII-B2-2020-1545-2020.pdf). [Preprint available on ArXiv](https://arxiv.org/abs/1905.11893)
-```
-@article{breizhcrops2020,
-  title={BreizhCrops: A Time Series Dataset for Crop Type Mapping},
-  author={Ru{\ss}wurm, Marc and Pelletier, Charlotte and Zollner, Maximilian and Lef{\`e}vre, S{\'e}bastien and K{\"o}rner, Marco},
-  journal={International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences ISPRS (2020)},
-  year={2020}
-}
-```
+This work has been published in the proceedings of [ISPRS Archives 2020](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2020/1545/2020/isprs-archives-XLIII-B2-2020-1545-2020.pdf). [Preprint available on ArXiv](https://arxiv.org/abs/1905.11893)
 
-ISPRS virtual congress video can be found [here](http://isprs.stream-up.tv/media-221-breizhcrops-a-time-series-dataset-for-crop-type-mapping)
+Ils explique leur projet lors du congres en ligne ISPRS, si vous voulez en savoir plus cliquez [ici](http://isprs.stream-up.tv/media-221-breizhcrops-a-time-series-dataset-for-crop-type-mapping)
 
 
 ### Train a model
