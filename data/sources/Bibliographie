@@ -1,0 +1,48 @@
+Marco KORNER, Sebastien LEFEVREe, Charlotte PELLETIER, Marc RUßWURM, Maximilian ZOLLNER. Breizhcrops : a time series dataset for crop type mapping
+- Lien vers le Github de Breizhcrops: https://github.com/dl4sits/breizhcrops
+- Notebook de prise en main de Breizhcrops: https://colab.research.google.com/drive/1i0M_X5-ytFhF0NO-FjhKiqnraclSEIb0?usp=sharing
+
+Vidéo pour commencer à en apprendre plus sur le machine learning: 
+Grant SANDERSON et adaptation de Josh PULLEN
+- Une brève introduction au machine learning : https://www.lesswrong.com/posts/qE73pqxAZmeACsAdF/a-short-introduction-to-machine-learning#Solving_real_world_tasks
+- Qu'est-ce un réseau de neurone ? : https://www.3blue1brown.com/lessons/neural-networks
+- La descente de gradient, comment les réseaux de neurones apprennent : https://www.3blue1brown.com/lessons/gradient-descent
+
+
+Documentation pour le code:
+- Documentation Python : 
+https://docs.python.org/3/
+- Documentation de la librairie Numpy : 
+https://numpy.org/doc/stable/
+- Documentation de pyRiemann, le package d'apprentissage automatique Python basé sur l'API scikit-learn : 
+https://pyriemann.readthedocs.io/en/latest/generated/pyriemann.classification.MDM.html
+- Algo RNN de Pytorch (que nous avons abandonné) : 
+https://pytorch.org/docs/stable/generated/torch.nn.RNN.html
+- Librairie skorch (permet d'utiliser Pytorch sous Scikit-Learn, fait partie des tentatives pour utiliser le RNN) : 
+https://skorch.readthedocs.io/en/stable/
+- Algo MDM de la librairie pyriemann : 
+https://pyriemann.readthedocs.io/en/latest/generated/pyriemann.classification.MDM.html
+- Librarie python tqdm pour l'affichage d'une barre de progression qui décrit l'état d'avancée d'une boucle for : 
+https://tqdm.github.io/
+ 
+"Blog" qui aide quand on a un problème dans le code : 
+https://stackoverflow.com/}{https://stackoverflow.com/
+
+
+Ouvrages/Artiles:
+
+David COUNARPEAU, Matthieu BRUCHER & Cie. 2010. Site de Scikit-Learn (pour les algos et les outils de Machine Learning comme la standardisation des données pré-traitement) : 
+href{https://scikit-learn.org/stable/
+
+Anders Knudby. Copie de Remote Sensing, chapitres 5. Visualisation et manipulation d'images satellites, 6. Classification et 7. Évaluation d'exactitude. 2021. 
+https://ecampusontario.pressbooks.pub/teledetection/chapter/chapter-6-classification/
+
+Véronique Tremblay. Cours d'analyse de données et apprentissage statistique. 2020
+https://veroniquetremblay.github.io/analyse_de_donnees_et_apprentissage_statistique_en_R/classification-non-supervisee.html
+
+C. Burnett, T. Blaschke. A multi-scale segmentation/object relationship modelling methodology for landscape analysis Ecological Modelling, 2003, pp. 233-249
+
+
+
+
+
