@@ -1,5 +1,6 @@
 # PIR-Breizhcrops
 Repository pour le Projet d'Initiation à la Recherche (no. 14, ING21)
+
 Lisa ARGENTO, Claire GIRADIN, Alexys REN encadrés par Alexandre HIPPERT-FERRER
 
 # BreizhCrops:
@@ -49,6 +50,6 @@ Cependant, nous n'avons pas réussi à mettre en place de classification multi-t
 
 
 ### Rapport détaillé
-<a href="doc/poster.pdf"><img height=300px src=doc/poster.png /></a>
+<a href="PIR-Breizhcrops/data/rapport_en_ligne.pdf"><img height=300px /></a>
 
 
