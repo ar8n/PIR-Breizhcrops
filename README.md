@@ -23,12 +23,13 @@ L'intérêt est que \textit{Breizhcrops} présente de nombreux défis : données
 Parmi les difficultés que présente le jeu de données \textit{Breizhcrops}, nous nous sommes intéressés à la \emph{sous-représentation}, appelée aussi \textit{déséquilibre} de classes. En effet, un déséquilibre important du nombre de représentants par classe entraîne des prédictions moins robustes car  cela augmente nettement la difficulté de l’apprentissage par l’algorithme. Si l’algorithme n’a que peu d’exemples de la classe minoritaire sur lesquels apprendre lors de la phase d'entraînement, il aura des difficultés à prédire les nouveaux objets de cette classe lors de la phase de généralisation (ou \textit{phase de test}).}
 Afin de réduire le déséquilibre de classes, une solution peut consister à multiplier les sources d'observations des échantillons sous-représentés.
 
-\noindent À partir de cet axe de réflexion, notre étude s'articule autour de trois objectifs : 
-\begin{itemize}
-\item[\textit{i) }] Appliquer certaines méthodes de l'état de l'art pour une tâche de classification supervisée des parcelles agricoles;
-\item[\textit{ii) }] Contribuer au jeu de données \textit{Breizhcrops} en l'étendant aux années de 2018 à 2022, ce qui n'est pas le cas pour l'instant;
-\item[\textit{iii) }] Etudier comment la prise en compte des données pluriannuelles permet d'améliorer la classification de parcelles agricoles sous-représentées à partir de cette extension. 
-\end{itemize}
+
+À partir de cet axe de réflexion, notre étude s'articule autour de trois objectifs : 
+
+- Appliquer certaines méthodes de l'état de l'art pour une tâche de classification supervisée des parcelles agricoles;
+- Contribuer au jeu de données \textit{Breizhcrops} en l'étendant aux années de 2018 à 2022, ce qui n'est pas le cas pour l'instant;
+- Etudier comment la prise en compte des données pluriannuelles permet d'améliorer la classification de parcelles agricoles sous-représentées à partir de cette extension. 
+
 
 ### Conclusion et perspectives
 
@@ -42,11 +43,10 @@ Cependant, nous n'avons pas réussi à mettre en place de classification multi-t
 
 ### Persepectives
 
-\begin{itemize}
-    \item[\textit{- }] Poursuivre nos recherches en récupérant les données parcellaires post-2017 et les croiser dans la composition du jeu d'entraînement et jeu de test (évolution de la végétation au cours du temps).
-    \item[\textit{- }] Généralisation de la classification de parcelles agricoles sur d'autres régions françaises.
-    \item[\textit{- }] Prendre en compte des attributs spatiaux, en plus de la réflectance, comme des informations sur la géométrie et la topologie des parcelles.
-\end{itemize}
+- Poursuivre nos recherches en récupérant les données parcellaires post-2017 et les croiser dans la composition du jeu d'entraînement et jeu de test (évolution de la végétation au cours du temps).
+- Généralisation de la classification de parcelles agricoles sur d'autres régions françaises.
+- Prendre en compte des attributs spatiaux, en plus de la réflectance, comme des informations sur la géométrie et la topologie des parcelles.
+
 
 ### Rapport détaillé
 <a href="doc/poster.pdf"><img height=300px src=doc/poster.png /></a>
