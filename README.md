@@ -50,6 +50,6 @@ Cependant, nous n'avons pas réussi à mettre en place de classification multi-t
 
 
 ### Rapport détaillé
-<a href="PIR-Breizhcrops/data/rapport_en_ligne.pdf"><img height=300px /></a>
+<a href="PIR-Breizhcrops/data/rapport_en_ligne.pdf"><img height=300px src="PIR-Breizhcrops/data/rapport_en_ligne"/></a>
 
 
