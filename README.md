@@ -1,5 +1,6 @@
 # PIR-Breizhcrops
 Repository pour le Projet d'Initiation à la Recherche (no. 14, ING21)
+Lisa ARGENTO, Claire GIRADIN, Alexys REN encadrés par Alexandre HIPPERT-FERRER
 
 # BreizhCrops:
 #### A Time Series Dataset for Crop Type Mapping
@@ -14,37 +15,40 @@ Leur objectif est de proposer un jeu de donnée pertinent pour entraîner des al
 Ils expliquent leur projet lors du congres en ligne ISPRS (si vous voulez en savoir plus [cliquez ici](http://isprs.stream-up.tv/media-221-breizhcrops-a-time-series-dataset-for-crop-type-mapping)).
 
 
-### Train a model
+### Introduction
+Les auteurs présentent un nouveau jeu de données de parcelles agricoles pertinentes pour mettre en évidence toutes les difficultés que l’on peut rencontrer en faisant de la classification, c'est-à-dire en analysant des données de façon à regrouper les pixels selon leur appartenance à des régions homogènes. Il existe deux principaux types de classification en télédetection : la \textit{classification non supervisée} et la \textit{classification supervisée}. La première permet  de regrouper des objets spatiaux en un certain nombre de classes d’occupation du territoire en formant des groupes les plus homogènes possibles tandis que la seconde permet de répartir au mieux ces objets spatiaux dans des classes prédéfinies
 
-Train a model via the example script `train.py`
-```bash
-python train.py TransformerEncoder --learning-rate 0.001 --weight-decay 5e-08 --preload-ram
-```
+L'intérêt est que \textit{Breizhcrops} présente de nombreux défis : données manquantes, déséquilibre de classes, autocorrélation spatiale, etc. Effectivement, pour regrouper des observations en groupes homogènes, il faut tout d’abord avoir une définition de ce que sont des observations similaires ou des observations différentes. Il faut donc être en mesure de quantifier la similarité ou la distance entre deux observations en fonction de leurs attributs. Cette première étape est souvent la plus difficile de tout le processus de classification et c’est souvent sur la définition des groupes que nous jouons pour obtenir la classification la plus précise possible.
 
-This script uses the default model parameters from `breizhcrops.models.TransformerModel`.
-When training multiple epochs, the `--preload-ram` flag speeds up training significantly
+Parmi les difficultés que présente le jeu de données \textit{Breizhcrops}, nous nous sommes intéressés à la \emph{sous-représentation}, appelée aussi \textit{déséquilibre} de classes. En effet, un déséquilibre important du nombre de représentants par classe entraîne des prédictions moins robustes car  cela augmente nettement la difficulté de l’apprentissage par l’algorithme. Si l’algorithme n’a que peu d’exemples de la classe minoritaire sur lesquels apprendre lors de la phase d'entraînement, il aura des difficultés à prédire les nouveaux objets de cette classe lors de la phase de généralisation (ou \textit{phase de test}).}
+Afin de réduire le déséquilibre de classes, une solution peut consister à multiplier les sources d'observations des échantillons sous-représentés.
 
+\noindent À partir de cet axe de réflexion, notre étude s'articule autour de trois objectifs : 
+\begin{itemize}
+\item[\textit{i) }] Appliquer certaines méthodes de l'état de l'art pour une tâche de classification supervisée des parcelles agricoles;
+\item[\textit{ii) }] Contribuer au jeu de données \textit{Breizhcrops} en l'étendant aux années de 2018 à 2022, ce qui n'est pas le cas pour l'instant;
+\item[\textit{iii) }] Etudier comment la prise en compte des données pluriannuelles permet d'améliorer la classification de parcelles agricoles sous-représentées à partir de cette extension. 
+\end{itemize}
 
-### Acknowledgements
+### Conclusion et perspectives
 
-The model implementations from this repository are based on the following papers and github repositories.
+Notre étude a permis plusieurs avancées vis-à-vis de la manipulation du jeu de données Breizhcrops.
 
-* TempCNN (reimplementation from [keras source code](https://github.com/charlotte-pel/igarss2019-dl4sits) ) [Pelletier et al., 2019](https://www.mdpi.com/2072-4292/11/5/523)
-* LSTM Recurrent Neural Network adapted from [Rußwurm & Körner, 2017](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w18/html/Russwurm_Temporal_Vegetation_Modelling_CVPR_2017_paper.html)
-* MS-ResNet implementation from [Fei Wang](https://github.com/geekfeiw/Multi-Scale-1D-ResNet)
-* TransformerEncoder implementation was originally adopted from Yu-Hsiang Huang [GitHub](https://github.com/jadore801120/attention-is-all-you-need-pytorch), but later replaced by own implementation when `torch.nn.transformer` modules became available
-* InceptionTime [Fawaz et al., 2019](https://arxiv.org/abs/1909.04939)
-* StarRNN [Turkoglu et al., 2019](https://arxiv.org/abs/1911.11033)
-* OmniscaleCNN [Tang et al., 2020](https://arxiv.org/abs/2002.10061)
+Nous avons, tout d'abord, mis en évidence les moyens de récupérer les données des parcelles pour une année souhaitée. Nous avons également explicité la chaîne de traitement nécessaire afin de réutiliser facilement différents algorithmes de classification dans le but d'une étude multi-temporelle des parcelles agricoles grâce à la librairie Scikit-Learn.
 
-The raw label data originates from  
-* [Registre parcellaire graphique (RPG)](https://www.data.gouv.fr/fr/datasets/registre-parcellaire-graphique-rpg-contours-des-parcelles-et-ilots-culturaux-et-leur-groupe-de-cultures-majoritaire/) of the French National Geographic Institute (IGN)
+Cependant, nous n'avons pas réussi à mettre en place de classification multi-temporelle en raison du manque de temps pour produire cette extension du jeu de données.
 
 
 
-### ICML workshop 2019
+### Persepectives
 
-<a href=https://arxiv.org/abs/1905.11893><img height=300px src=doc/paper.png /></a>
+\begin{itemize}
+    \item[\textit{- }] Poursuivre nos recherches en récupérant les données parcellaires post-2017 et les croiser dans la composition du jeu d'entraînement et jeu de test (évolution de la végétation au cours du temps).
+    \item[\textit{- }] Généralisation de la classification de parcelles agricoles sur d'autres régions françaises.
+    \item[\textit{- }] Prendre en compte des attributs spatiaux, en plus de la réflectance, comme des informations sur la géométrie et la topologie des parcelles.
+\end{itemize}
+
+### Rapport détaillé
 <a href="doc/poster.pdf"><img height=300px src=doc/poster.png /></a>
 
 
