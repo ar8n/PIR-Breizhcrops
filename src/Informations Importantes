@@ -1,0 +1,6 @@
+Pour le bon fonctionnement des scipts, il est nécessaire de placer les différents fichiers au bon endroit ou de modifier les chemins.
+
+De plus, pour améliorer les temps de calcul de train_test_split.py, les données sont d'abord traitées et enregistrées grâce au script save.py.
+Ces données sont conséquentes, nous ne pouvons donc pas les mettre sur ce github. Il vous faut executer ce script avant tout calcul.
+
+
