@@ -48,8 +48,10 @@ Cependant, nous n'avons pas réussi à mettre en place de classification multi-t
 - Généralisation de la classification de parcelles agricoles sur d'autres régions françaises.
 - Prendre en compte des attributs spatiaux, en plus de la réflectance, comme des informations sur la géométrie et la topologie des parcelles.
 
+### Poster
+<a href="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/PIRRAP_Argento_Girardin_Ren.pdf"><img height=300px src="PIR-Breizhcrops/data/rapport_en_ligne"/></a>
 
 ### Rapport détaillé
-<a href="PIR-Breizhcrops/data/rapport_en_ligne.pdf"><img height=300px src="PIR-Breizhcrops/data/rapport_en_ligne"/></a>
+<a href="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/PIRRAP_Argento_Girardin_Ren.pdf"><img height=300px src="PIR-Breizhcrops/data/rapport_en_ligne"/></a>
 
 
