@@ -49,9 +49,9 @@ Cependant, nous n'avons pas réussi à mettre en place de classification multi-t
 - Prendre en compte des attributs spatiaux, en plus de la réflectance, comme des informations sur la géométrie et la topologie des parcelles.
 
 ### Poster
-<a href="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/PIRRAP_Argento_Girardin_Ren.pdf"><img height=300px src="PIR-Breizhcrops/data/rapport_en_ligne"/></a>
+<a href="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/poster_scientifique.pdf"><img height=300px src="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/poster_scientifique.pdf"/></a>
 
 ### Rapport détaillé
-<a href="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/PIRRAP_Argento_Girardin_Ren.pdf"><img height=300px src="PIR-Breizhcrops/data/rapport_en_ligne"/></a>
+<a href="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/PIRRAP_Argento_Girardin_Ren.pdf"><img height=300px src="https://github.com/ar8n/PIR-Breizhcrops/blob/main/data/PIRRAP_Argento_Girardin_Ren.pdfe"/></a>
 
 
